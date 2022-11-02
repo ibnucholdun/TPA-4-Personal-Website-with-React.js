@@ -1,0 +1,28 @@
+/* ABOUT SECTION */
+.about-section {
+    background-color: #2A2344;
+    height: 300px;
+    padding: 0 10%;
+    margin-top: 50px;
+}
+
+.about-section .container{
+    padding: 30px 0;
+    
+}
+
+.about-section .container h1{
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.about-section .container h1 span{
+    color: #D5213A;
+    font-weight: 400;
+}
+
+.about-section .container p{
+    padding: 20px 0;
+    text-align: center;
+}
