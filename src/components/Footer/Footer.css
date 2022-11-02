@@ -16,6 +16,10 @@ footer .container .alamat{
     display: flex;
     justify-content: center;
 }
+footer .container .nav ul{
+    padding: 0;
+}
+
 footer .container .sosmed{
     display: flex;
     margin-top: 5px;
@@ -29,4 +33,15 @@ footer .copy{
     color: #fff;
     font-size: 14px;
     font-weight: 300;
+}
+
+@media screen and (max-width: 768px){
+    /* FOOTER */
+    footer .container{
+        grid-template-columns: 1fr;
+    }
+    footer .container .nav,
+    footer .container .alamat{
+        justify-content: start;
+    }
 }

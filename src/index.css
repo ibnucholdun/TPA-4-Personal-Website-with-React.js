@@ -4,9 +4,11 @@
   text-decoration: none;
   list-style: none;
   color: #fff;
-}
-body {
+  box-sizing: border-box;
   margin: 0;
+}
+
+body {
   font-family: 'Poppins', 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;

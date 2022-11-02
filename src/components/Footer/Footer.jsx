@@ -9,12 +9,12 @@ const Footer = () => {
   return (
     <>
         <footer>
-            <div class="container">
+            <div className="container">
                 <h1>Ibnu Choldun</h1>
-                <div class="alamat">
+                <div className="alamat">
                     <p>Desa Bongas Blok Pentil, RT:03/RW:01, Kec. Bongas, Kab.Indramayu, Jawabarat, 45255</p>
                 </div>
-                <div class="nav">
+                <div className="nav">
                     <ul>
                         <li><Link to="/" className='navlink'>Home</Link></li>
                         <li><Link to="/about" className='navlink'>About</Link></li>
@@ -22,10 +22,10 @@ const Footer = () => {
                         <li><Link to="/blog" className='navlink'>Blog</Link></li>
                     </ul>
                 </div>
-                <div class="contact">
+                <div className="contact">
                     <p>+6285872587871</p>
                     <p>ibnucholdun023@gmail.com</p>
-                    <div class="sosmed">
+                    <div className="sosmed">
                         <a href="https://www.linkedin.com/in/ibnucholdun/" target="_blank" rel="noopener noreferrer">
                             <img src={Linkedin} alt="linkedin" width={30}/>
                         </a>
@@ -38,7 +38,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <p class="copy">© 2022 Ibnu Choldun</p>
+            <p className="copy">© 2022 Ibnu Choldun</p>
         </footer>
     </>
   )
