@@ -1,0 +1,47 @@
+.container-card .card{
+    background-color: #2A2344;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    border: #fff;
+    position: relative;
+}
+
+.container-card .card img{
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.container-card .card .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container-card .card:hover img {
+    opacity: 0.3;
+}
+
+.container-card .card:hover .middle {
+    opacity: 1;
+}
+
+.container-card .card .middle a {
+    background-color: #D5213A;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.container-card .card .middle a:hover{
+    color: #D5213A;
+    background-color: #fff;
+    border: 1px solid #D5213A;
+}

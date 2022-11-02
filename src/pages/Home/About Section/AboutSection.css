@@ -26,3 +26,17 @@
     padding: 20px 0;
     text-align: center;
 }
+
+@media screen and (max-width: 768px){
+    /*ABOUT SECTION*/
+    .about-section{
+        height: auto;
+    }
+    .about-section .container h1{
+        font-size: 30px;
+    }
+    .about-section .container p{
+        padding: 10px 0;
+        font-size: 16px;
+    }
+}
