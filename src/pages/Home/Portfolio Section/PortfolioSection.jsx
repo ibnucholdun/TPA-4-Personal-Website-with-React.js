@@ -3,12 +3,14 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import CardPortfolio from '../../../components/Card Portfolio/CardPortfolio'
 import dataPortfolio from '../../../data/dataPortfolio'
+import Vector from '../../../assets/images/gambar13.png'
 import './PortfolioSection.css'
 
 const PortfolioSection = () => {
   return (
     <>
         <section className="portfolio-section">
+            <img src={Vector} alt="" className='vector'/>
             <article className="container">
                 <h1><span>-</span> Portfolio <span>-</span></h1>
                 <div className="container-card">

@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import './CardPortfolio.css'
 
 const CardPortfolio = ({img, link, name}) => {
@@ -13,6 +14,12 @@ const CardPortfolio = ({img, link, name}) => {
         </div>
     </>
   )
+}
+
+CardPortfolio.propTypes = {
+  img: PropTypes.string.isRequired,
+  link: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired
 }
 
 export default CardPortfolio

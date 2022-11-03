@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import { Link } from 'react-router-dom'
 import './CardBlog.css'
 
@@ -13,6 +14,12 @@ const CardBlog = ({img, title, descript}) => {
         </div>
     </>
   )
+}
+
+CardBlog.propTypes = {
+  img: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  descript: PropTypes.string.isRequired
 }
 
 export default CardBlog
