@@ -14,7 +14,7 @@ const Blog = () => {
               dataBlog.map((item) => {
                   return (
                     <div key={item.id}>
-                      <CardBlog img={item.img} title={item.title} descript={item.descript}/>
+                      <CardBlog img={item.img} title={item.title} descript={item.descript} id={item.id}/>
                     </div>
                   )
               })
