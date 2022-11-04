@@ -19,7 +19,8 @@ const CardBlog = ({img, title, descript, id}) => {
 CardBlog.propTypes = {
   img: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
-  descript: PropTypes.string.isRequired
+  descript: PropTypes.string.isRequired,
+  id: PropTypes.number.isRequired
 }
 
 export default CardBlog
