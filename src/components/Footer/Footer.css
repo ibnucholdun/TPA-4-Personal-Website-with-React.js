@@ -1,0 +1,47 @@
+/* FOOTER */
+footer{
+    background-color: #2A2344;
+    padding: 20px 10%;
+}
+
+footer .container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+    margin: 20px 0 30px;
+}
+
+footer .container .nav, 
+footer .container .alamat{
+    display: flex;
+    justify-content: center;
+}
+footer .container .nav ul{
+    padding: 0;
+}
+
+footer .container .sosmed{
+    display: flex;
+    margin-top: 5px;
+}
+footer .container .contact a{
+    padding: 0 10px;
+}
+
+footer .copy{
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 768px){
+    /* FOOTER */
+    footer .container{
+        grid-template-columns: 1fr;
+    }
+    footer .container .nav,
+    footer .container .alamat{
+        justify-content: start;
+    }
+}

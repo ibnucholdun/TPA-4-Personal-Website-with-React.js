@@ -1,0 +1,83 @@
+.portfolio-section{
+    padding: 0 10%;
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.portfolio-section .container h1{
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.portfolio-section .container h1 span{
+    color: #D5213A;
+    font-weight: 400;
+}
+.container-card {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+.container-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.container-button .button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #D5213A;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.container-button .button:hover{
+    color: #D5213A;
+    background-color: #fff;
+    border: 1px solid #D5213A;
+}
+
+.vector{
+    position: absolute;
+    top: 0;
+    left: 50px;
+    z-index: 3;
+    width: 20px;
+}
+
+@media screen and (max-width: 768px){
+    /* PORTFOLIO SECTION */
+    .container-card {
+        grid-template-columns: 1fr;
+    }
+    .container-card .card{
+        padding: 10px;
+        width: 330px;
+    }
+}
+
+@media screen and (min-device-width: 1024px) and (max-device-width: 1200px) {
+    /* PORTFOLIO SECTION */
+    .container-card {
+        grid-template-columns: 1fr 1fr;
+    }
+    .container-card .card{
+        padding: 10px;
+        width: 330px;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 426px){
+    .vector{
+        display: none;
+    }
+}

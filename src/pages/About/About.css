@@ -1,0 +1,51 @@
+/* ABOUT */
+.about{
+    padding: 20px 10%;
+    margin-bottom: 50px;
+}
+
+.about h1{
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.about h1 span {
+    color: #D5213A;
+    font-weight: 400;
+}
+
+.about .container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    margin-top: 30px;
+}
+
+.about .container .about-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about .container .about-img img{
+    display: block;
+    width: 100%;
+    max-width: 50%;
+    margin: 0 auto;
+    height: auto;
+}
+
+.about .container .about-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 768px){
+    .about .container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

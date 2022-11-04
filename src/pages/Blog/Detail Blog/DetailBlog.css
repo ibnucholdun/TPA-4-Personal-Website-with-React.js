@@ -1,0 +1,27 @@
+.detail-blog{
+    padding: 50px 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detail-blog .container .title{
+    font-weight: 600;
+    text-align: center;
+    font-size: 28px;
+}
+
+.detail-blog .container .image{
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+.detail-blog .container .descript{
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: justify;
+    font-weight: 300;
+}
